@@ -37,15 +37,15 @@ let a = +prompt("Please enter 1. number")
 let b = +prompt("Please enter 2. number")
 let c = +prompt("Please enter 3. number")
 
-if(a>0 && b>0 && c>0) {
+if(a > 0 && b > 0 && c >0 ) {
     console.log("plus")
-}else if(a>0 && b<0 && c<0) {
+}else if(a > 0 && b < 0 && c < 0) {
     console.log("plus")
 }
-else if(a<0 && b<0 && c>0) {
+else if(a < 0 && b < 0 && c > 0) {
 console.log("plus")
 } 
-else if(a<0 && b>0 && c<0) {
+else if(a < 0 && b > 0 && c < 0) {
 console.log("plus")
 } else if ( a === 0 || b === 0 || c===0) {
 console.log("unsigned")
