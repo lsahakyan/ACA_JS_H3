@@ -63,16 +63,19 @@ if (number === 0 && digit === 0) {
     isDigitFound = true
 } 
 while (number != 0){
-let lastDigit = number%10 
-number = (number - lastDigit)/10
-if (lastDigit === digit) {
-    isDigitFound = true
-    break
+    let lastDigit = number%10 
+    number = (number - lastDigit)/10
+    if (lastDigit === digit) {
+        isDigitFound = true
+        break
 }
 }
 
-if (isDigitFound === true) {console.log("yes")
-}else{console.log("no")}
+if (isDigitFound === true) {
+    console.log("yes")
+}else{ 
+    console.log("no")
+}
 
 
 //Exercise 4
