@@ -79,7 +79,7 @@ if (isDigitFound === true) {
 
 
 //Exercise 4
-number = +promt("Please enter a number")
+number = +prompt("Please enter a number")
 
 let maxDigit = 0
 let minDigit = 9
