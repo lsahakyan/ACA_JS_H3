@@ -87,7 +87,11 @@ if (number === 0) {maxDigit = minDigit = 0}
 while (number !=0){
 let lastDigit = number%10
 number = (number - lastDigit)/10
-if (lastDigit > maxDigit) {maxDigit = lastDigit}
-if (lastDigit < minDigit)  {minDigit = lastDigit}
+if (lastDigit > maxDigit) {
+    maxDigit = lastDigit
+    }
+if (lastDigit < minDigit)  {
+    minDigit = lastDigit
+    }
 }
 console.log(maxDigit - minDigit)
