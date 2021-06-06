@@ -1,7 +1,7 @@
 //Exercise 1
 
 let number = +prompt("Please enter a number")
-switch(number){
+switch(true){
     case ( number%50 <25):{
 console.log(number - number%50)
     break;
